@@ -1,8 +1,8 @@
-# Project X
+# P0 - Compile, Test, Debug
 
-- Name: John Doe
-- Email: johndoe@u.boisestate.edu
-- Class: CS123-001
+- Name: Chris Shoemaker
+- Email: christophershoem@u.boisestate.edu
+- Class: CS425
 
 ## Known Bugs or Issues
 
