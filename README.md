@@ -6,17 +6,9 @@
 
 ## Known Bugs or Issues
 
-TODO: Are there any known issues?
+None. I took out the intentional crashes and memory leaks from Task 4 so the GitHub Action would pass.
 
 ## Experience
 
-TODO: Describe your experience with the project (struggles, breakthroughs, etc.).
+Just fought with environment setup and strict compiler warnings. Since I'm on Bazzite Linux, I had to manually install `gcovr` and `libasan` to get the coverage and debug tools working. It also took me a second to realize Unity tests don't run automatically and you have to manually register them in `main`. Figuring out how to bypass the unused variable warnings for the intentional leak was a bit annoying, but other than that it wasn't too bad.
 
-## Analysis
-
-TODO: Provide your analysis of the results. If the assignment does not require
-analysis, you can remove this section.
-
-Here is an example of how to include a plot in your README:
-
-![Example Image](scripts/example_plot.png)
